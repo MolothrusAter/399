@@ -1,0 +1,17 @@
+Z:\ListeningCrew\Listening_CrewSamples\Mike_Samples\TEWA Recognizer\TEWA Clips\Sound P14-C13-12_5m_TEWA85dB.wav	00:00:01.082	 2.765	73	 87.1	 68.25	TEWA_recognizer_specificindividual - 20 cross annotations	
+Z:\ListeningCrew\Listening_CrewSamples\Mike_Samples\TEWA Recognizer\TEWA Clips\Sound P14-C13-12_5m_TEWA90dB.wav	00:00:00.461	 3.290	77	 71.8	 68.56	TEWA_recognizer_specificindividual - 20 cross annotations	
+Z:\ListeningCrew\Listening_CrewSamples\Mike_Samples\TEWA Recognizer\TEWA Clips\Sound P14-E05-62_5m_TEWA80dB.wav	00:00:00.749	 2.771	48	 82.1	 60.76	TEWA_recognizer_specificindividual - 20 cross annotations	
+Z:\ListeningCrew\Listening_CrewSamples\Mike_Samples\TEWA Recognizer\TEWA Clips\Sound P14-E09-37_5m_TEWA85dB.wav	00:00:00.467	 3.123	64	 78.9	 63.84	TEWA_recognizer_specificindividual - 20 cross annotations	
+Z:\ListeningCrew\Listening_CrewSamples\Mike_Samples\TEWA Recognizer\TEWA Clips\Sound P14-E10-112_5m_TEWA90dB.wav	00:00:00.224	 2.918	65	 78.6	 71.22	TEWA_recognizer_specificindividual - 20 cross annotations	
+Z:\ListeningCrew\Listening_CrewSamples\Mike_Samples\TEWA Recognizer\TEWA Clips\Sound P14-E10-12_5m_TEWA80dB.wav	00:00:00.051	 3.296	79	 70.7	 64.95	TEWA_recognizer_specificindividual - 20 cross annotations	
+Z:\ListeningCrew\Listening_CrewSamples\Mike_Samples\TEWA Recognizer\TEWA Clips\Sound P14-E10-12_5m_TEWA85dB.wav	00:00:00.582	 2.778	83	 78.4	 66.23	TEWA_recognizer_specificindividual - 20 cross annotations	
+Z:\ListeningCrew\Listening_CrewSamples\Mike_Samples\TEWA Recognizer\TEWA Clips\Sound P14-E10-12_5m_TEWA90dB.wav	00:00:00.154	 3.123	87	 75.3	 65.40	TEWA_recognizer_specificindividual - 20 cross annotations	
+Z:\ListeningCrew\Listening_CrewSamples\Mike_Samples\TEWA Recognizer\TEWA Clips\Sound P14-E10-62_5m_TEWA80dB.wav	00:00:00.640	 2.771	64	 82.5	 71.22	TEWA_recognizer_specificindividual - 20 cross annotations	
+Z:\ListeningCrew\Listening_CrewSamples\Mike_Samples\TEWA Recognizer\TEWA Clips\Sound P14-E10-62_5m_TEWA85dB.wav	00:00:00.128	 3.290	71	 70.2	 68.33	TEWA_recognizer_specificindividual - 20 cross annotations	
+Z:\ListeningCrew\Listening_CrewSamples\Mike_Samples\TEWA Recognizer\TEWA Clips\Sound P14-E10-87_5m_TEWA90dB.wav	00:00:00.582	 2.931	71	 82.2	 73.04	TEWA_recognizer_specificindividual - 20 cross annotations	
+Z:\ListeningCrew\Listening_CrewSamples\Mike_Samples\TEWA Recognizer\TEWA Clips\Sound P14-R01-37_5m_TEWA85dB.wav	00:00:00.365	 3.110	62	 72.8	 61.18	TEWA_recognizer_specificindividual - 20 cross annotations	
+Z:\ListeningCrew\Listening_CrewSamples\Mike_Samples\TEWA Recognizer\TEWA Clips\Sound P14-R02-112_5m_TEWA90dB.wav	00:00:00.045	 3.290	65	 71.1	 65.33	TEWA_recognizer_specificindividual - 20 cross annotations	
+Z:\ListeningCrew\Listening_CrewSamples\Mike_Samples\TEWA Recognizer\TEWA Clips\Sound P14-R02-87_5m_TEWA80dB.wav	00:00:00.333	 3.290	53	 74.1	 63.26	TEWA_recognizer_specificindividual - 20 cross annotations	
+Z:\ListeningCrew\Listening_CrewSamples\Mike_Samples\TEWA Recognizer\TEWA Clips\Sound P14-R03-12_5m_TEWA80dB.wav	00:00:00.634	 2.778	72	 88.1	 65.63	TEWA_recognizer_specificindividual - 20 cross annotations	
+Z:\ListeningCrew\Listening_CrewSamples\Mike_Samples\TEWA Recognizer\TEWA Clips\Sound P14-R04-37_5m_TEWA90dB.wav	00:00:00.160	 2.925	70	 75.0	 66.08	TEWA_recognizer_specificindividual - 20 cross annotations	
+Z:\ListeningCrew\Listening_CrewSamples\Mike_Samples\TEWA Recognizer\TEWA Clips\Sound P14-R09-37_5m_TEWA85dB.wav	00:00:00.230	 3.290	66	 70.9	 62.89	TEWA_recognizer_specificindividual - 20 cross annotations	

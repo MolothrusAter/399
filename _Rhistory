@@ -1,0 +1,213 @@
+getwd()
+basename("D:\TEWA Clips")
+basename("D:/TEWA Clips")
+basename("D:/TEWA Clips/")
+basename("D:/TEWA Clips/*")
+fileinfo("D:\TEWA Clips")
+fileinfo("D:/TEWA Clips")
+list.files("D:/TEWA Clips/")
+filelist <- list.files("D:/TEWA Clips/")
+length(filelist)
+testdf <- data.frame("1","2","3")
+testdf
+names(testdf)
+names(testdf) <- c("col1","col2","col3")
+names(testdf)
+names$col1
+names$1
+names[1]
+names[,1]
+names[testdf$1]
+names[testdf[1]]
+names[testdf[,1]]
+names(testdf$1)
+names(testdf[1])
+testdf[1]<- c(1,2,3)
+rows(testdf)
+numrows(testdf)
+filelist
+data <- data.frame(filelist, "col2", "col3")
+head(data)
+data[1,1]
+data[,1]
+data[1,]
+data[1,] <- NULL
+?rm
+objects(data)
+names(data)
+data$filelist
+names(data[1,1])
+names(data[1])
+names(data[1]) <- filename
+names(data[1]) <- "filename"
+head(data)
+data[0]
+rm(data[,1])
+data[,1]
+x <- c(1,2,3)
+y <- c(1,2,3)
+z <- c(1,2,3)
+testdf <- data.frame(x,y,z)
+testdf[1,1]
+testdf[1,3]
+testdf[3,1]
+rm(x,y,z,testdf)
+data[1,]
+rm(data[1,])
+data[1,] <- NULL
+data[1,] <- NULL*3
+data[1,] <- c(NULL,NULL,NULL)
+?rows
+??rows
+?grep
+string <- "brown-headed cowbird"
+string[3]
+string[1:3]
+length(string)
+attr(string)
+rm(string)
+head(data)
+load("C:/Users/Michael/Google Drive/2015-16 (1)fall/BIOL 399 - Research Project/workingdir/make_TEWA_df.R")
+grep("*TEWA*", filelist)
+filelist <- list.files("C:/Users/Mike/Google Drive")
+filelist
+?grep
+filelist
+head(filelist)
+data[1,3]
+data[4,1]
+data[4,1:3]
+data[1:4,1]
+grep("^Sound ", data[, 1])
+testdata <- data
+sub("^Sound ", "", testdata[, 1])
+sub("\.wav$", "", testdata[, 1])
+sub(".wav$", "", testdata[, 1])
+testdata <- sub("^Sound ", "", testdata[, 1])
+testdata <- sub(".wav$", "", testdata[, 1])
+testdata <- sub("^Sound ", "", testdata[, 1])
+testdata
+testdata <- sub(".wav$", "", testdata[, 1])
+testdata
+head(data)
+names(data)
+names(data) <- c("filename", "year", "species")
+names(data)
+head(data)
+dim(data)
+databackup <- data
+rm(testdata)
+objects(data)
+sub("^Sound ", "", data[,1])
+sub(".wav$", "", data[,1])
+data <- sub("^Sound ", "", data[,1])
+data <- sub(".wav$", "", data[,1])
+head(data)
+str(data)
+data <- sub(".wav", "", data[,1])
+head(data)
+data
+databackup
+data <- databackup
+names(data)
+databackup <- data
+quicksave <- function(x) {
+backupbackup <- databackup
+databackup <- data
+}
+quicksave
+quicksave <- function() {
+backupbackup <- databackup
+databackup <- data
+}
+quicksave
+quicksave()
+madeupfunction()
+rm(quicksave)
+data[grep("P14-", data[1, ]), "year"] <- 2014
+head(data)
+data[grep("P14-", data[1, ]), "year"] <- "2014"
+attr(data[,2])
+chr(data[,2])
+char(data[,2])
+str(data[,2])
+head(data[,2])
+data[,2] <- NULL
+head(data[,2])
+head(data)
+data <- databackup
+head(data)
+as.numeric(data[,2])
+data[,2] <- as.numeric(data[,2])
+head(data)
+data[grep("P14-", data[1, ]), "year"] <- 2014
+head(data)
+data[grep("P14-", data[1, ]), 2] <- 2014
+head(data)
+data[,2] <- as.character(data[,2])
+data[grep("P14-", data[1, ]), 2] <- 2014
+head(data)
+data[grep("P14-", data[1, ]), 2]
+grep("P14-", data[1, ])
+grep("P14", data[1, ])
+grep("P14", data[,1])
+data[grep("P14-", data[, 1]), 2] <- 2014
+head(data)
+backupbackup <- databackup
+databackup <- data
+data[grep("TEWA", data[, 1]), "species"] <- "TEWA"
+data[,3] <- as.character(data[,3])
+data[grep("TEWA", data[, 1]), "species"] <- "TEWA"
+head(data)
+which(data[,3] != TEWA)
+which(data[,3] != "TEWA")
+newdata <- data[2:,]
+dim(data)
+newdata <- data[2:2543,]
+head(newdata)
+row.names<-.default
+?row.names
+row.names(data) <- NULL
+head(data)
+row.names(newdata) <- NULL
+head(newdata)
+data <- newdata
+databackup <- data
+backupbackup <- databackup
+data
+colnames(data)
+colnames(data)
+colnames(data) <- c("filename", "year", "species", "sitetype", "volume")
+data["sitetype"] <- NA
+data["volume"] <- NA
+head(data)
+grep("-C[0-9][0-9]", data[, 1])
+data[grep("-C[0-9][0-9]", data[, 1]), "sitetype"] <- "coniferous"
+head(data)
+data[grep("-D[0-9][0-9]", data[, 1]), "sitetype"] <- "deciduous"
+data[grep("-E[0-9][0-9]", data[, 1]), "sitetype"] <- "edge"
+data[grep("-R[0-9][0-9]", data[, 1]), "sitetype"] <- "road"
+head(data)
+data[700-720]
+grep("[0-9][0-9]dB", data[, 1])
+unique(grep("[0-9][0-9]dB", data[, 1]))
+data
+data[grep("80dB", data[, 1]), "volume"] <- "80"
+data[grep("85dB", data[, 1]), "volume"] <- "85"
+data[grep("90dB", data[, 1]), "volume"] <- "90"
+head(data)
+backupbackup <- databackup
+databackup <- data
+View(data)
+getOption(max.print)
+getOption("max.print")
+head(data)
+View(data)
+head(data)
+data[500-560]
+head(data)
+data[900-950,]
+head(newdata)
+rm(newdata)
+data[grep(-462, data[,1]),]
+data[grep("-R07", data[,1]),]

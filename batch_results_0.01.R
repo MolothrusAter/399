@@ -1,6 +1,7 @@
 # get filenames
   list.files("batch_results")
 
+  
 # import batch results
   algo1_50q_40s <- read.table("batch_results/algo1_50q_40s.txt", sep="\t")
   algo1_50q_40s <- algo1_50q_40s[,1]

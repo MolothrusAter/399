@@ -37,6 +37,11 @@ distances <- sub("_", "", distances)
 distances <- as.numeric(distances)
 df["distance"] <- distances
 
+# make quality and score columns
+df["quality"] <- NA
+df["score"] <- NA
+
+
 
 
 

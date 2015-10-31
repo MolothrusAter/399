@@ -5,7 +5,7 @@
 # common tasks
 
   # export df as csv
-  write.table(df, file="data.csv", sep=",")
+  write.table(newdf, file="data.csv", sep=",")
 
 
 # define useful functions

@@ -30,7 +30,15 @@
     newdf[grep("80dB", df[, 1]), "volume"] <- "80"
     newdf[grep("85dB", df[, 1]), "volume"] <- "85"
     newdf[grep("90dB", df[, 1]), "volume"] <- "90"
-
+    
+  # aggregate sitetype category: closed=(coniferous+deciuous), open=(edge+road)
+    newdf["siteCategory"] <- NA
+    newdf[grep("coniferous", newdf[, "sitetype"]), "siteCategory"] <- "closed"
+    newdf[grep("deciduous", newdf[, "sitetype"]), "siteCategory"] <- "closed"
+    newdf[grep("edge", newdf[, "sitetype"]), "siteCategory"] <- "open"
+    newdf[grep("road", newdf[, "sitetype"]), "siteCategory"] <- "open"
+    
+       
 # distance
 distances <- newdf[,"filename"]
 distances <- str_extract(distances, "[[:alnum:]]*_")

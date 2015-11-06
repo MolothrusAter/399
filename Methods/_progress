@@ -1,0 +1,37 @@
+Recognizer settings common to all recognizers (format):
+setting
+justification
+
+Max Sample Delay
+doesn't matter; only looking at single channel (has to do with delay b/w mics)
+
+Sample Rate (Hz): 20000
+training clip song freq has max 9000; sample rate higher than 18000 (twice the max freq) adds nothing and uses more cpu
+
+FFT Size: 256
+small FFT = more detail in time; large FFT = more detail in freq. Trillers better w/ smaller FFT size. Visualize w/ spectrogram plot
+
+Freq. range (min, range): 47, 49
+use log scale spectrogram view. adjust min. to bottom of target signal, then max to just above top of target signal. (bg noise is low-freq. biased)
+
+Background Filter: 1s
+maximum feature reduction without losing primary song features. see backgroundfilter_*.png (presentation media)
+
+Dynamic Range (dB): 18
+signal:noise ratio (dB) determined w/ visual inspection of normalized spectrogram
+
+Resolution: ?
+low resolution is suitable for "narrow band" (intensity range) feature vectors. also, low resolution may be necessary in low quality recordings w/ lots of bg noise. can be visualized in slice plot. (slice plot can view different time slices by holding shift and moving the mouse)
+
+Max Song (ms): 3200
+duration of the training clip
+
+Max Syllable (ms): 180
+duration of syllables in the training clip; visualized w/ signal detection waveform view
+
+Max Syllable Gap (ms): 100
+duration of syllables in the training clip; visualized w/ signal detection waveform view
+
+
+
+

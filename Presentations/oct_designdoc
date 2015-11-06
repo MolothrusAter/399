@@ -1,0 +1,20 @@
+Intro
+
+Background/Objectives
+objectives:
+	build an idealized recognizer
+	determine primary factors to consider in optimizing a non-ideal recognizer
+	compare detection rates between human observers and recognizers
+
+Methods
+Recognizers built with different levels of training on a single recording
+	the training clip was a 12m playback at 80dB in coniferous forest, chosen by high signal to noise ratio (clear signal, little bg noise)
+
+
+Results (so far)
+
+What's next
+Look at how a "perfect" recognizer compares with humans
+
+Questions
+
